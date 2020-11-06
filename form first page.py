@@ -1,0 +1,15 @@
+from tkinter import*
+import tkinter.font as font
+root = Tk()
+root.geometry("500x500")
+root.title('WELCOME TO HEALTH CARE',)
+root.config(bg="#00b4f5")
+myFont = font.Font(family='Times New Roman', size=10, weight='bold')
+photo = PhotoImage(file =r"C:\SAI RISHI\red cross.png")
+Button(root, text = 'Click Me !', image = photo).pack(side =TOP,pady=13)
+label_0 = Label(root, text="Welcome To _____ Health Services",width=50,font=("Agency FB",25,"bold"),bg="#00b4f5",fg="black")
+label_0.place(x=-60,y=250)
+btn = Button(root, text='LOGIN', width=20,bg="#948faf",fg='black',font=myFont,activebackground='lime',border = 0).place(x=170,y=300)
+btn = Button(root, text='NEW HERE ? SIGN UP', width=20,bg="#948faf",fg='black',font=myFont,activebackground='lime',border = 0).place(x=170,y=350)
+btn = Button(root, text='ABOUT US', width=20,bg="#948faf",fg='black',font=myFont,activebackground='lime',border = 0).place(x=170,y=400)
+root.mainloop()
