@@ -32,7 +32,7 @@ label_1= Label(root, text="IF PATIENT COMES ;  FOR WHAT PURPOSE",width=40,font=m
 
 entry_0=Entry(root, font=myFont).pack(anchor = CENTER,padx = 10, pady = 5)
 
-label_1= Label(root, text="FOR HOW AMNY TIMES A COMES TO THE HOSPITAL",width=50,font=myFont,bg="#948faf",fg="black").pack(anchor = CENTER,padx = 10, pady = 5)
+label_1= Label(root, text="FOR HOW MANY TIMES A COMES TO THE HOSPITAL",width=50,font=myFont,bg="#948faf",fg="black").pack(anchor = CENTER,padx = 10, pady = 5)
 
 entry_0=Entry(root, font=myFont).pack(anchor = CENTER,padx = 10, pady = 5)
 
