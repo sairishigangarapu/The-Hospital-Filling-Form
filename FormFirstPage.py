@@ -9,6 +9,7 @@ myFont = font.Font(family='Times New Roman', size=10, weight='bold')
 photo = PhotoImage(file =r"C:\SAI RISHI\red cross.png")
 Button(root, text = 'Click Me !', image = photo).pack(side =TOP,pady=13)
 label_0 = Label(root, text="Welcome To _____ Health Services",width=50,font=("Agency FB",25,"bold"),bg="#00b4f5",fg="black").pack(anchor = CENTER,padx = 10, pady = 15)
+label_0 = Label(root, text="For Any Additional Queries call-\n __________",width=50,font=("Agency FB",20,"bold"),bg="#00b4f5",fg="black").pack(anchor="nw")
 def ok():
     root = Tk()
 frame =Frame(root)
