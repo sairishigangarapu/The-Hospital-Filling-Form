@@ -24,7 +24,7 @@ frame.pack()
 def openSignUp():
     os.system('python SignUp.py' )
 btn = Button(root, text='NEW HERE ? SIGN UP', width=20,bg="#948faf",fg='black',font=myFont,activebackground='lime',border = 0,command=openSignUp).pack(anchor = CENTER,padx = 10, pady = 15)
-btn = Button(root, text='WANT MORE INFO? CLICK HERE', width=50,bg="#948faf",fg='black',font=myFont,activebackground='lime',border = 0).pack(anchor = CENTER,padx = 10, pady = 15)
+btn = Button(root, text='FOR MORE INFORMATION CLICK HERE', width=50,bg="#948faf",fg='black',font=myFont,activebackground='lime',border = 0).pack(anchor = CENTER,padx = 10, pady = 15)
 def ok():
     root = Tk()
 frame =Frame(root)
